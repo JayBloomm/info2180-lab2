@@ -9,7 +9,6 @@ body {
     color: #2D3748;
 }
 
-/* ---------- Grid layout ---------- */
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -28,7 +27,7 @@ main   { grid-area: main; }
 aside  { grid-area: aside; }
 footer { grid-area: footer; }
 
-/* ---------- Header (Flexbox centering) ---------- */
+
 header {
     display: flex;
     flex-direction: column;
@@ -56,8 +55,7 @@ header p { margin: 0; }
     border-radius: 50%;
     border: 4px solid #FFFFFF;
 }
-
-/* ---------- Main content ---------- */
+/*main*/
 main { padding: 0 1rem; }
 
 article { margin-bottom: 2rem; }
@@ -82,7 +80,7 @@ article h2 {
 .post-img.left  { float: left;  margin: 0 1rem .5rem 0; }
 .post-img.right { float: right; margin: 0 0 .5rem 1rem; }
 
-/* ---------- Sidebar ---------- */
+/*for the sidebar*/
 aside { padding: 0 1rem; }
 
 aside h3 {
@@ -104,7 +102,7 @@ aside .about {
 aside ul { margin: 0; padding-left: 1.2rem; }
 aside a  { color: #2879B8; }
 
-/* ---------- Footer ---------- */
+/*footer*/
 footer {
     background-color: #28651C;
     color: #FFFFFF;
@@ -113,7 +111,7 @@ footer {
 }
 footer p { margin: 0; }
 
-/* ---------- Small screens ---------- */
+/*small screen*/
 @media (max-width: 700px) {
     .container {
         grid-template-columns: 1fr;
